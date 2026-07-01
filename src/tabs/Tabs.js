@@ -27,9 +27,6 @@ const Tabs = (props) => {
     }
   }, [activeId, props.defaultTabIndex]);
 
-  console.log('activeId', activeId);
-  console.log('tabContentList[activeId]', tabContentList[activeId]);
-
   return (
     <div>       
       <div className='tabButtons'>{tabButtonList}</div>
