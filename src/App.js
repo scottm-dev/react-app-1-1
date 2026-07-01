@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Tabs from './tabs/Tabs';
 
 function App() {
   return (
@@ -16,7 +17,16 @@ function App() {
           rel="noopener noreferrer"
         >
           React App Changes again again 101.1
-        </a>
+        </a> 
+
+      <Tabs
+        defaultTabIndex={1}
+        tabs={[
+            { button: 'Button 1', content: 'Content 1' },
+            { button: 'Button 2', content: 'Content 2' },
+            { button: 'Button 3', content: 'Content 3' },
+          ]}>
+          </Tabs>
       </header>
     </div>
   );
