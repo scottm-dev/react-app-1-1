@@ -24,7 +24,7 @@ function App() {
         tabs={[
             { button: 'Button 1', content: 'Content 1' },
             { button: 'Button 2', content: 'Content 2' },
-            { button: 'Button 3', content: 'Content 3' },
+            { button: 'Button 3', content: 'Content 3a' },
           ]}>
           </Tabs>
       </header>
